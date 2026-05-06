@@ -17,5 +17,7 @@ Erguer a VPC base do Projeto Eco-Ops usando GenAI de ponta a ponta.
 ## Desafio
 Tente gerar o prompt mais curto possível que resulte na arquitetura correta seguindo todas as regras de modularização.
 
+**💡 Dica de Fluxo:** Como a IA irá gerar o conteúdo de múltiplos arquivos em uma única resposta, você terá que criar a estrutura de pastas e arquivos manualmente (ex: `mkdir -p modules/vpc`) e colar o conteúdo correspondente gerado pelo Gemini em cada arquivo (`main.tf`, `variables.tf`, etc).
+
 ---
 *Dica: Sem o NAT Gateway, seus microsserviços em subnets privadas não terão acesso à internet para baixar dependências ou atualizações.*

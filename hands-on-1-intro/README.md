@@ -13,4 +13,6 @@ Gerar e validar um recurso simples na AWS via Gemini CLI.
 4. Execute `terraform init` e `terraform plan` para validar a sintaxe e as restrições.
 
 ## Dica de Prompt
-> "Atue como um engenheiro DevOps. Gere um arquivo Terraform para uma tabela DynamoDB chamada 'eco-ops-events'. Use o provider AWS v5.x. Ative server-side encryption. Retorne apenas o código, sem explicações."
+> "Atue como um engenheiro DevOps. Gere um arquivo Terraform para uma tabela DynamoDB chamada 'eco-ops-events'. Use o provider AWS v5.x. Ative server-side encryption. Retorne apenas o código HCL puro, sem blocos de markdown ou explicações."
+
+**Nota:** Se a IA retornar o código dentro de blocos de markdown (ex: \` \` \`hcl ... \` \` \`), certifique-se de remover essas linhas antes de rodar o `terraform init`.
