@@ -100,3 +100,5 @@ Tente encurtar o Prompt 2 ao máximo, mantendo todas as regras. Qual o menor pro
 
 ### Nota sobre o Módulo 2
 O código desta VPC será o ponto de partida para o Módulo 2 (CI/CD com n8n). Certifiquem-se de que o `terraform plan` passa antes do commit.
+
+### Nota sobre o Módulo 3
