@@ -1,21 +1,34 @@
 resource "aws_iam_policy" "developer_policy" {
   name        = "DeveloperAccessPolicy"
-  description = "Policy for developer team"
+  description = "Least-privilege policy for developer team"
 
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
       {
+        Sid    = "AllowReadOnlyS3Access"
+        Effect = "Allow"
+
         Action = [
-          "s3:*",
-          "ec2:*"
+          "s3:GetObject",
+          "s3:ListBucket"
         ]
-        Effect   = "Allow"
-        Resource = "*"
+
+        Resource = [
+          "arn:aws:s3:::company-dev-bucket",
+          "arn:aws:s3:::company-dev-bucket/*"
+        ]
       },
       {
-        Action = "iam:PassRole"
+        Sid    = "AllowDescribeEC2"
         Effect = "Allow"
+
+        Action = [
+          "ec2:DescribeInstances",
+          "ec2:DescribeRegions",
+          "ec2:DescribeVolumes"
+        ]
+
         Resource = "*"
       }
     ]
