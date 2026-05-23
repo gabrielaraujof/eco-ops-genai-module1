@@ -17,6 +17,3 @@ Para realizar os exercícios, você precisará de:
 - **[hands-on-3-foundation](./hands-on-3-foundation):** Lab 3 — VPC & Modularização. Constrói a fundação de rede do projeto Eco-Ops com chain-of-prompts.
 
 Cada lab é evolutivo: o resultado de um é o ponto de partida do próximo. Ao final do Módulo 1, o diretório `eco-ops/` conterá a infraestrutura completa que será usada no Módulo 2 (CI/CD com n8n).
-
----
-*O futuro da infraestrutura é assistido, mas a responsabilidade final é sempre sua.*
