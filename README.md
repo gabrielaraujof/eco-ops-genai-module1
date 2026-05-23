@@ -1,6 +1,6 @@
 # Eco-Ops: Infraestrutura Inteligente com GenAI
 
-Este repositório contém os artefatos práticos para o Módulo 1 do curso **GenAI for DevOps Engineers**.
+Este repositório contém os artefatos práticos para o curso **GenAI for DevOps Engineers**.
 
 ## 🚀 Objetivo do Módulo
 Aprender a integrar assistentes de IA (coding agents) no fluxo de trabalho de engenharia de infraestrutura, focando em geração de código (IaC), auditoria de segurança e modularização.
@@ -17,6 +17,5 @@ Para realizar os exercícios, você precisará de:
 - **[hands-on-3-foundation](./hands-on-3-foundation):** Lab 3 — VPC & Modularização. Constrói a fundação de rede do projeto Eco-Ops com chain-of-prompts.
 
 Cada lab é evolutivo: o resultado de um é o ponto de partida do próximo. Ao final do Módulo 1, o diretório `eco-ops/` conterá a infraestrutura completa que será usada no Módulo 2 (CI/CD com n8n).
-
 ---
 *O futuro da infraestrutura é assistido, mas a responsabilidade final é sempre sua.*
