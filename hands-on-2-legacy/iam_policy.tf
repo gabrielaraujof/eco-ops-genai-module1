@@ -21,3 +21,4 @@ resource "aws_iam_policy" "developer_policy" {
     ]
   })
 }
+
